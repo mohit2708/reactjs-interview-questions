@@ -5,3 +5,9 @@
   -> npx create-react-app my-app <br>
   -> cd my-app <br>
   -> npm start <br>
+
+## Check node install
+-> node -v
+
+## check npm install
+-> npm -v
