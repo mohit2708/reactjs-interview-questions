@@ -2,12 +2,11 @@ https://codesandbox.io/  -> online react run
 
 ## React Install
 * Install NodeJs (https://nodejs.org/en/download/) And Npm  // jab node install karte hai to automatically npm install ho jata hai<br>
-__Check node install__ <br>
+__Check node install__ 
 ```php
 -> node -v
 ```
-__Check npm install__ <br>
-```php
+__Check npm install__
 -> npm -v
 ```
 
