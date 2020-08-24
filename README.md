@@ -347,6 +347,7 @@
 * React is a JavaScript library, It is not a framwork.
 * React was created by [Jordan Walke](https://github.com/jordwalke), a software engineer working for Facebook.
 * React has a component based architecture.
+
 * It is used for handling view layer for web and mobile apps. React was created by [Jordan Walke](https://github.com/jordwalke), a software engineer working for Facebook. React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.
 
 
