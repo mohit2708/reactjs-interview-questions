@@ -60,11 +60,16 @@ const fname = "mohit";
 const lname = "saxena";
 const currdate = new Date().toLocaleDateString();
 const currtime = new Date().toLocaleTimeString();
-
+const heading = {
+  color : '#f66666',
+  textTransformation : 'capitalize',
+  fontWeight : 'bold'
+};
 ReactDOM.render( 
 <>
-<h1>My Name is {fname}</h1>,
-<p>add {2+3} </p>,
+<h1>My Name is {fname}</h1>
+<h1 className="heading" style={heading}>Hello</h1> // class ki jaghe className use hota hai
+<p>add {2+3} </p>
 <p>Math Randam {Math.random()}</p>
 <p>My Name is {fname + " " + lname} {lname}</p>
 <h1>My Name is {`${fname} ${lname}`}</h1>
