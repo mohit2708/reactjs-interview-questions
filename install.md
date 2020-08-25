@@ -21,6 +21,40 @@ h1.innerHTML = "Mohit Saxena";
 document.getElementById("root").appendChild(h1);
 ```
 
+### Multiple Elements inside ReactDOM.render()
+```php
+ReactDOM.render(
+<React.Fragment>  
+  <Heading/>
+  <h6>my name is {fname} </h6>
+ </React.Fragment>
+  ,
+  document.getElementById('root')
+);
+```
+__(OR)__
+```php
+ReactDOM.render(
+<>  
+  <Heading/>
+  <h6>my name is {fname} </h6>
+ </>
+  ,
+  document.getElementById('root')
+);
+```
+__(OR)__
+```php
+ReactDOM.render(
+[  
+  <Heading/>,
+  <h6>my name is {fname} </h6>,
+]
+  ,
+  document.getElementById('root')
+);
+```
+
 ### Types of React Components?
 * __Functional Components__
 ```php
