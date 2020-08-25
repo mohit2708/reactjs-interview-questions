@@ -14,7 +14,7 @@ https://codesandbox.io/  -> online react run
   -> npm start <br>
 
 
-## without import react only write pure javascript in babel js in indes.js
+## without import react only write pure javascript in babel js in index.js
 ```php
 var h1 = document.createElement("h1");
 h1.innerHTML = "Mohit Saxena";
@@ -53,6 +53,16 @@ ReactDOM.render(
   ,
   document.getElementById('root')
 );
+```
+### Javascript Expression
+```php
+const fname = "mohit saxena";
+
+ReactDOM.render( 
+<h1>My Name is {fname}</h1>,
+  document.getElementById('root')
+);
+
 ```
 
 ### Types of React Components?
