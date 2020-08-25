@@ -56,13 +56,20 @@ ReactDOM.render(
 ```
 ### Javascript Expression
 ```php
-const fname = "mohit saxena";
+const fname = "mohit";
+const lname = "saxena";
+const currdate = new Date().toLocaleDateString();
+const currtime = new Date().toLocaleTimeString();
 
 ReactDOM.render( 
 <>
 <h1>My Name is {fname}</h1>,
 <p>add {2+3} </p>,
 <p>Math Randam {Math.random()}</p>
+<p>My Name is {fname + " " + lname} {lname}</p>
+<h1>My Name is {`${fname} ${lname}`}</h1>
+<p>current date is {currdate}</p>
+<p>current time is {currtime}</p>
 </>,
   document.getElementById('root')
 );
