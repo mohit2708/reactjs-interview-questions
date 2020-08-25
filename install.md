@@ -6,12 +6,12 @@ https://codesandbox.io/  -> online react run
   * __Check npm install__:- npm -v
 
 
+
 * Install Visual studio/sublime/atom/Brackets
 * Install React from Terminal<br>
   -> npx create-react-app <project-name> <br>
   -> cd my-app <br>
   -> npm start <br>
-
 
 
 ## Ques. What are React Components?
