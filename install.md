@@ -78,7 +78,34 @@ ReactDOM.render(
 </>,
   document.getElementById('root')
 );
+```
 
+### time change and gm
+```php
+let currDate1 = new Date(2020, 8, 25, 17);
+let currDate2= currDate1.getHours();
+let greeting = "";
+const csssty = {};
+if(currDate2 >= 1 && currDate2 <12){
+  greeting = 'Good Morning';
+  csssty.color = 'green';
+} 
+else if(currDate2 >= 12 && currDate2 <16){
+    greeting = 'Good afternoon';
+    csssty.color = 'brown';
+  }
+else{
+    greeting = 'Good evining';
+    csssty.color = 'black';
+}
+
+ReactDOM.render(
+<>  
+<h1>Hello sir <span style = {csssty}> {greeting}</span></h1>
+
+</>,
+  document.getElementById('root')
+);
 ```
 
 ### Types of React Components?
