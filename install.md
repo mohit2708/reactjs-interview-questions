@@ -2,8 +2,8 @@ https://codesandbox.io/  -> online react run
 
 ## React Install
 * Install NodeJs (https://nodejs.org/en/download/) And Npm  // jab node install karte hai to automatically npm install ho jata hai<br>
-  * __Check node install__ node -v
-  * __Check npm install__ npm -v
+  * __Check node install__:-  node -v
+  * __Check npm install__:- npm -v
 
 
 * Install Visual studio/sublime/atom/Brackets
