@@ -14,9 +14,12 @@ https://codesandbox.io/  -> online react run
   -> npm start <br>
 
 
-## Ques. What are React Components?
-React components are independent and reusable code.
-
+## without import react only write pure javascript in babel js in indes.js
+```php
+var h1 = document.createElement("h1");
+h1.innerHTML = "Mohit Saxena";
+document.getElementById("root").appendChild(h1);
+```
 
 ### Types of React Components?
 * __Functional Components__
