@@ -366,9 +366,12 @@
 
    **[⬆ Back to Top](#table-of-contents)**
     
-3. ### What is JSX?
+### What is JSX?
+* JSX stands for JavaScript XML.
+* JSX converts HTML tags into react elements.
+* JSX allows us to write HTML elements in JavaScript and place them in the DOM without any __createElement()__  and/or __appendChild()__ methods.
+* You are not required to use JSX, but JSX makes it easier to write React applications.
 
-    *JSX* is a XML-like syntax extension to ECMAScript (the acronym stands for *JavaScript XML*). Basically it just provides syntactic sugar for the `React.createElement()` function, giving us expressiveness of JavaScript along with HTML like template syntax.
 
     In the example below text inside `<h1>` tag return as JavaScript function to the render function.
 
