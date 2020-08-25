@@ -59,7 +59,11 @@ ReactDOM.render(
 const fname = "mohit saxena";
 
 ReactDOM.render( 
+<>
 <h1>My Name is {fname}</h1>,
+<p>add {2+3} </p>,
+<p>Math Randam {Math.random()}</p>
+</>,
   document.getElementById('root')
 );
 
